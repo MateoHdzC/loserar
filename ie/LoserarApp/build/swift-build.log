@@ -1,0 +1,7 @@
+<unknown>:0: error: unable to open output file '/Users/mateo.hdz/.cache/clang/ModuleCache/D67MXZ7W1KP6/SwiftShims-RZ4N2HIA9DA9.pcm': 'Operation not permitted'
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/x86_64-apple-macos.swiftinterface:5:8: error: could not build Objective-C module 'SwiftShims'
+import SwiftShims
+       ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/x86_64-apple-macos.swiftinterface:1:1: error: failed to build module 'Swift'; this SDK is not supported by the compiler (the SDK is built with 'Apple Swift version 5.8 (swiftlang-5.8.0.117.59 clang-1403.0.22.8.50)', while this compiler is 'Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)'). Please select a toolchain which matches the SDK.
+// swift-interface-format-version: 1.0
+^

@@ -1,0 +1,13 @@
+/Users/mateo.hdz/Documents/ie/LoserarApp/LoserarApp.m:90:11: warning: 'allowedFileTypes' is deprecated: first deprecated in macOS 12.0 - Use -allowedContentTypes instead [-Wdeprecated-declarations]
+    panel.allowedFileTypes = @[@"loser"];
+          ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:215:49: note: 'allowedFileTypes' has been explicitly marked deprecated here
+@property (nullable, copy) NSArray<NSString *> *allowedFileTypes API_DEPRECATED("Use -allowedContentTypes instead", macos(10.3,12.0));
+                                                ^
+/Users/mateo.hdz/Documents/ie/LoserarApp/LoserarApp.m:99:10: warning: 'allowedFileTypes' is deprecated: first deprecated in macOS 12.0 - Use -allowedContentTypes instead [-Wdeprecated-declarations]
+    save.allowedFileTypes = @[@"loser"];
+         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:215:49: note: 'allowedFileTypes' has been explicitly marked deprecated here
+@property (nullable, copy) NSArray<NSString *> *allowedFileTypes API_DEPRECATED("Use -allowedContentTypes instead", macos(10.3,12.0));
+                                                ^
+2 warnings generated.
